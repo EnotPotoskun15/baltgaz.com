@@ -19,13 +19,48 @@ var app = new Vue ({
                 langColor: "Colors:"
             }
         ],
+        waterHeaters: [
+            {
+                waterHeaterName: "BaltGaz 4510T",
+                waterHeaterVariants: [
+                    {
+                        variantColor: "black",
+                        variantImage: "components/images/products/4510t-black.jpeg"
+                    },
+                    {
+                        variantColor: "gray",
+                        variantImage: "components/images/products/4510t-grey.jpeg"
+                    },
+                    {
+                        variantColor: "white",
+                        variantImage: "components/images/products/4510t-white.jpeg"
+                    }
+                ],
+
+            }
+        ],
+        boilers: [
+
+        ],
         selectLang: 0,
-        selectedTab: 0
+        selectedTab: 0,
+        selectedVariant: 0,
+        selectedProduct: 0
     },
     methods: {
         changeLang(index) {
             return this.selectLang = index;
+        },
+        selectedColor(index) {
+            return this.selectedVariant = index;            
+         },
+         changeProduct(index) {
+            return this.selectedProduct = index;
+         }
+    },
+    computed: {
+        image() {
+            return this.waterHeaters[this.selectedProduct].waterHeaterVariants[this.selectedVariant].variantImage;
         }
-        
     }
 })

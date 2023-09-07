@@ -8,6 +8,10 @@
     margin-top: 1rem;
 }
 
+.product {
+    margin: 1rem;
+}
+
 .productColor {
     margin: 15px;
 }
@@ -22,18 +26,6 @@
 
 .color:hover {
     cursor: pointer;
-}
-
-.black {
-    background-color: black;
-}
-
-.white {
-    background-color: white;
-}
-
-.grey {
-    background-color: grey;
 }
 
 /* TABS */

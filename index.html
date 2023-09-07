@@ -40,24 +40,27 @@
                     <div class="tab"
                     :class="{activeTab: selectedTab === index}"
                     @click=" selectedTab = index"
-                    >{{ tab }}</div>
+                    ><h5>{{ tab }}</h5></div>
                 </div>
             </div>
         </div>
         <div class="container products" v-show="selectedTab === 0">
             <div class="row">
-                <div class="flex product">
+                <div class="flex product"
+                v-for="(waterHeater, index) in waterHeaters"
+                @mouseover="changeProduct(index)">
                     <div class="col-md-5">
-                        <img src="components/images/products/4510t-grey.jpeg" alt="">
+                        <img :src="image" alt="">
                     </div>
                     <div class="col-md-3 productColor">
                         <h6>{{ langs[selectLang].langColor }}</h6>
-                        <div class="color black"></div>
-                        <div class="color white"></div>
-                        <div class="color grey"></div>
+                        <div class="color"
+                        v-for="(color, index) in waterHeater.waterHeaterVariants"
+                        :style="{ background:color.variantColor }"
+                        @mouseover="selectedColor(index)"></div>
                     </div>
                     <div class="col-md-4 product-text">
-                        <h5>BaltGaz 4510T</h5>
+                        <h5>{{ waterHeater.waterHeaterName }}</h5>
                         <div class="productDiscription">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Optio cupiditate commodi praesentium totam tenetur delectus!
