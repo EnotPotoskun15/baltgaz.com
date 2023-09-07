@@ -29,14 +29,14 @@
             <div>
                 <div class="col-12">
                     <div class="main-banner flex">
-                        <h1>{{ langs[selectLang].langHeader }}</h1>
+                        <h1>{{ langs[selectlang].langHeader }}</h1>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container tabs">
             <div class="row">
-                <div class="col-4" v-for="(tab, index) in langs[selectLang].langTabs">
+                <div class="col-4" v-for="(tab, index) in langs[selectlang].langTabs">
                     <div class="tab"
                     :class="{activeTab: selectedTab === index}"
                     @click=" selectedTab = index"
@@ -46,30 +46,8 @@
         </div>
         <div class="container products" v-show="selectedTab === 0">
             <div class="row">
-                <div class="flex product"
-                v-for="(waterHeater, index) in waterHeaters"
-                @mouseover="changeProduct(index)">
-                    <div class="col-md-5">
-                        <img :src="image" alt="">
-                    </div>
-                    <div class="col-md-3 productColor">
-                        <h6>{{ langs[selectLang].langColor }}</h6>
-                        <div class="color"
-                        v-for="(color, index) in waterHeater.waterHeaterVariants"
-                        :style="{ background:color.variantColor }"
-                        @mouseover="selectedColor(index)"></div>
-                    </div>
-                    <div class="col-md-4 product-text">
-                        <h5>{{ waterHeater.waterHeaterName }}</h5>
-                        <div class="productDiscription">
-                            <p>{{ waterHeater.waterHeaterDescription[selectLang].descriptionText }}</p>
-                            <ul>
-                                <li v-for="(list, index) in waterHeater.waterHeaterDescription[selectLang].descriptionList"
-                                >{{ list }}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <product-4510t :selectlang="selectlang"></product-4510t>
+                <product-4512t :selectlang="selectlang"></product-4512t>
             </div>
         </div>
         <div class="container products" v-show="selectedTab === 1">
