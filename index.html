@@ -62,16 +62,10 @@
                     <div class="col-md-4 product-text">
                         <h5>{{ waterHeater.waterHeaterName }}</h5>
                         <div class="productDiscription">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Optio cupiditate commodi praesentium totam tenetur delectus!
-                            </p>
+                            <p>{{ waterHeater.waterHeaterDescription[selectLang].descriptionText }}</p>
                             <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Alias numquam fugiat quibusdam vitae.</li>
-                                <li>Quia tempore nostrum neque atque.</li>
-                                <li>Est ducimus fugit doloremque natus.</li>
-                                <li>Officia cum sed culpa earum!</li>
-                                <li>Ab voluptatem voluptas soluta maxime.</li>
+                                <li v-for="(list, index) in waterHeater.waterHeaterDescription[selectLang].descriptionList"
+                                >{{ list }}</li>
                             </ul>
                         </div>
                     </div>

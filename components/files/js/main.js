@@ -22,6 +22,26 @@ var app = new Vue ({
         waterHeaters: [
             {
                 waterHeaterName: "BaltGaz 4510T",
+                waterHeaterDescription: [
+                    {
+                        descriptionText: "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Все образ вопроса даль которой.",
+                        descriptionList: ["Далеко-далеко за словесными горами.",
+                                        "Алфавит лучше не lorem.",
+                                        "Щеке грамматики переулка имеет.",
+                                        "Которое города даль за!",
+                                        "Реторический запятой от всех однажды!",
+                                        "Всемогущая единственное грамматики большого." ] 
+                    },
+                    {
+                        descriptionText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate commodi praesentium totam tenetur delectus!",
+                        descriptionList: ["Lorem ipsum dolor sit amet.",
+                                        "Alias numquam fugiat quibusdam vitae.",
+                                        "Quia tempore nostrum neque atque.",
+                                        "Est ducimus fugit doloremque natus.",
+                                        "Officia cum sed culpa earum!",
+                                        "Ab voluptatem voluptas soluta maxime." ]
+                    }
+                ],
                 waterHeaterVariants: [
                     {
                         variantColor: "black",
