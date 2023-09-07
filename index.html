@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="components/files/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title></title>
+</head>
+<body>
+    <div id="ep-app">
+        <div>
+            <div>
+                <div class="col-12">
+                    <div class="flex langs">
+                        <div class="flex lang" v-for="(lang, index) in langs"
+                        @click="changeLang(index)">
+                            <div class="flag">
+                                <img :src="lang.langImage" :alt="lang.langCode">
+                            </div>
+                            <div class="lang-text">{{ lang.langText }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="col-12">
+                    <div class="main-banner flex">
+                        <h1>{{ langs[selectLang].langHeader }}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container tabs">
+            <div class="row">
+                <div class="col-4" v-for="(tab, index) in langs[selectLang].langTabs">
+                    <div class="tab"
+                    :class="{activeTab: selectedTab === index}"
+                    @click=" selectedTab = index"
+                    >{{ tab }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="container products" v-show="selectedTab === 0">
+            <div class="row">
+                <div class="flex product">
+                    <div class="col-md-5">
+                        <img src="components/images/products/4510t-grey.jpeg" alt="">
+                    </div>
+                    <div class="col-md-3 productColor">
+                        <h6>{{ langs[selectLang].langColor }}</h6>
+                        <div class="color black"></div>
+                        <div class="color white"></div>
+                        <div class="color grey"></div>
+                    </div>
+                    <div class="col-md-4 product-text">
+                        <h5>BaltGaz 4510T</h5>
+                        <div class="productDiscription">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio cupiditate commodi praesentium totam tenetur delectus!
+                            </p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Alias numquam fugiat quibusdam vitae.</li>
+                                <li>Quia tempore nostrum neque atque.</li>
+                                <li>Est ducimus fugit doloremque natus.</li>
+                                <li>Officia cum sed culpa earum!</li>
+                                <li>Ab voluptatem voluptas soluta maxime.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container products" v-show="selectedTab === 1">
+            <div class="row">
+                <div class="flex product">
+                    <div class="col-md-12">Раздел с котлами пока заполняется</div>
+                </div>
+            </div>
+        </div>
+        <div class="container products" v-show="selectedTab === 2">
+            <div class="row">
+                <div class="flex product">
+                    <div class="col-md-12">Раздел с запчастями пока заполняется</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="components/files/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
