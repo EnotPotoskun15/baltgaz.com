@@ -28,10 +28,30 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .productColor {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .productColor>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 /* TABS */
 
 .tab {
     border: 1px solid black;
+    border-bottom: 1px solid grey;
+    box-shadow: inset 0px -4px 10px grey;
     border-radius: 10px 10px 0 0;
     text-align: center;
     background-color: white;
@@ -42,8 +62,41 @@
     margin-top: 1rem;
 }
 
+.tabs::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: black;
+    width: 100%;
+}
+
 .activeTab {
     background-color: lightgray;
+    cursor: default;
+    position: relative;
+    height: calc(100% + 1px);
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 0px -4px 8px grey;
+}
+
+@media (max-width: 768px) {
+    .tab {
+        border-bottom: 1px solid black;
+        border-radius: 10px;
+        box-shadow: none;
+        margin: 0.3rem;
+    }
+
+    .activeTab {
+        height: 100%;
+        border-bottom: 1px solid black;
+        box-shadow: none;
+        height: auto;
+    }
+
+    .tabs::after {
+        height: 0px;
+    }
 }
 
 /* MAIN BANNER */
@@ -57,7 +110,6 @@
 }
 
 .main-banner > h1 {
-    /* background-color: white; */
     background: rgb(255,255,255);
     background: linear-gradient(
         90deg,

@@ -36,7 +36,7 @@
         </div>
         <div class="container tabs">
             <div class="row">
-                <div class="col-4" v-for="(tab, index) in langs[selectlang].langTabs">
+                <div class="col-md-4" v-for="(tab, index) in langs[selectlang].langTabs">
                     <div class="tab"
                     :class="{activeTab: selectedTab === index}"
                     @click=" selectedTab = index"

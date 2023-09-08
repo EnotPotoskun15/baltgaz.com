@@ -11,7 +11,7 @@ Vue.component('product-4512t', {
             <img :src="image" alt="">
         </div>
         <div class="col-md-3 productColor">
-            <h6>{{ waterHeaterDescription[selectlang].descriptionColor }}</h6>
+            <div><h6>{{ waterHeaterDescription[selectlang].descriptionColor }}</h6></div>
             <div class="color"
             v-for="(color, index) in waterHeaterVariants"
             :style="{ background:color.variantColor }"
@@ -97,7 +97,7 @@ Vue.component('product-4510t', {
             <img :src="image" alt="">
         </div>
         <div class="col-md-3 productColor">
-            <h6>{{ waterHeaterDescription[selectlang].descriptionColor }}</h6>
+            <div><h6>{{ waterHeaterDescription[selectlang].descriptionColor }}</h6></div>
             <div class="color"
             v-for="(color, index) in waterHeaterVariants"
             :style="{ background:color.variantColor }"
