@@ -44,25 +44,21 @@
                 </div>
             </div>
         </div>
-        <div class="container products" v-show="selectedTab === 0">
+        <div class="container products" v-if="selectedTab === 0">
             <div class="row">
                 <product-4510t :selectlang="selectlang"></product-4510t>
                 <product-4512t :selectlang="selectlang"></product-4512t>
             </div>
         </div>
-        <div class="container products" v-show="selectedTab === 1">
+        <div class="container products" v-if="selectedTab === 1">
             <div class="row">
-                <div class="flex product">
-                    <div class="col-md-12">Раздел с котлами пока заполняется</div>
-                </div>
+                <product-24 :selectlang="selectlang"></product-24>
+                <product-32 :selectlang="selectlang"></product-32>
+                <product-40 :selectlang="selectlang"></product-40>
             </div>
         </div>
-        <div class="container products" v-show="selectedTab === 2">
-            <div class="row">
-                <div class="flex product">
-                    <div class="col-md-12">Раздел с запчастями пока заполняется</div>
-                </div>
-            </div>
+        <div class="container products" v-if="selectedTab === 2">
+            <product-parts :selectlang="selectlang"></product-parts>
         </div>
     </div>
 

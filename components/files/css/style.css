@@ -14,6 +14,14 @@
 
 .productColor {
     margin: 15px;
+    margin-right: 0px;
+}
+
+.product-text {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .color {
@@ -37,6 +45,10 @@
     .productColor {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .product-text {
+        margin-left: 0px;
     }
 
     .productColor>div {
@@ -102,11 +114,15 @@
 /* MAIN BANNER */
 
 .main-banner {
-    background-image: url("../../images/banners/main_banner.jpeg");
+    background-image: url("../../images/banners/main_banner.jpg");
     background-size: cover;
-    height: 450px;
+    background-position: center;
+    height: 550px;
     justify-content: space-evenly;
     flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    filter: brightness(0.9);
 }
 
 .main-banner > h1 {
