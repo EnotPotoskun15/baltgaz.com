@@ -121,7 +121,7 @@ Vue.component('product-parts', {
                 {
                     partName: ["Датчик температуры погружной",
                     "DHW NTC sensor for boiler"],
-                    partImage: "components/images/products/spare_parts/nofoto.png"
+                    partImage: "components/images/products/spare_parts/30291.png"
                 },
                 {
                     partName: ["Датчик температуры накладной",

@@ -9,15 +9,19 @@
     height: 100%;
     flex-direction: column;
     justify-content: flex-end;
+    border: 1px solid;
+    border-radius: 3%;
 }
 
 .part img {
     max-width: 300px;
-    margin-bottom: 3rem;
+    margin: auto auto 3rem;
 }
 
 .part h5 {
     text-align: center;
+    height: 3.5rem;
+    cursor: default;
 }
 
 .product img {
