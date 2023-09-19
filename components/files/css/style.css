@@ -1,5 +1,25 @@
 /* PRODUCTS */
 
+.parts {
+    margin-bottom: 4rem;
+}
+
+.part {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.part img {
+    max-width: 300px;
+    margin-bottom: 3rem;
+}
+
+.part h5 {
+    text-align: center;
+}
+
 .product img {
     width: 100%;
 }
@@ -160,6 +180,12 @@
 .flag img {
     max-width: 1.3rem;
     margin-right: 0.2rem;
+}
+
+@media(max-width: 768px) {
+    .lang-text {
+        display: none;
+    }
 }
 
 /* MAIN */

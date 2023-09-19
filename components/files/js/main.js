@@ -19,44 +19,124 @@ Vue.component('product-parts', {
         return {
             parts: [
                 {
-                    partName: ["Блок управления JSG-W002",
-                    "Control unit JSG-W002"],
-                    partImage: "components/images/products/4510t-grey.png" 
+                    partName: ["Блок управления",
+                    "Control unit"],
+                    partImage: "components/images/products/spare_parts/31294.png" 
                 },
                 {
                     partName: ["Теплообменник",
-                    "Heat exchanger JSG-W002"],
-                    partImage: "components/images/products/4510t-grey.png"
+                    "Heat exchanger"],
+                    partImage: "components/images/products/spare_parts/31283.png"
                 },
                 {
-                    partName: ["Название запчасти",
-                    "Name of spare part"],
-                    partImage: "components/images/products/4510t-grey.png" 
+                    partName: ["Водогазовый узел",
+                    "Gas water valve"],
+                    partImage: "components/images/products/spare_parts/25886.png" 
                 },
                 {
-                    partName: ["Название запчасти",
-                    "Name of spare part"],
-                    partImage: "components/images/products/4510t-grey.png"
+                    partName: ["Вентилятор",
+                    "Fan"],
+                    partImage: "components/images/products/spare_parts/31291.png"
                 },
                 {
-                    partName: ["Название запчасти",
-                    "Name of spare part"],
-                    partImage: "components/images/products/4510t-grey.png" 
+                    partName: ["Свечи розжига и ионизации",
+                    "Ingnition and ionization electrode"],
+                    partImage: "components/images/products/spare_parts/31193.png" 
                 },
                 {
-                    partName: ["Название запчасти",
-                    "Name of spare part"],
-                    partImage: "components/images/products/4510t-grey.png"
+                    partName: ["Дисплей",
+                    "Display"],
+                    partImage: "components/images/products/spare_parts/25892.jpg"
                 },
                 {
-                    partName: ["Название запчасти",
-                    "Name of spare part"],
-                    partImage: "components/images/products/4510t-grey.png" 
+                    partName: ["Ручка",
+                    "Knob"],
+                    partImage: "components/images/products/spare_parts/nofoto.png" 
                 },
                 {
-                    partName: ["Название запчасти",
-                    "Name of spare part"],
-                    partImage: "components/images/products/4510t-grey.png"
+                    partName: ["Датчик температуры",
+                    "Temperature sensor"],
+                    partImage: "components/images/products/spare_parts/30666.jpg"
+                },
+                {
+                    partName: ["Набор прокладок",
+                    "Set of seals"],
+                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                },
+                {
+                    partName: ["Плата управления котлом",
+                    "Control unit for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png"
+                },
+                {
+                    partName: ["Теплообменник котла 2,3 кг",
+                    "Heat exchanger for boiler 2.3KG"],
+                    partImage: "components/images/products/spare_parts/30679.jpg" 
+                },
+                {
+                    partName: ["Теплообменник котла 3,2 кг",
+                    "Heat exchanger for boiler 3.2KG"],
+                    partImage: "components/images/products/spare_parts/30679.jpg"
+                },
+                {
+                    partName: ["Теплообменник котла 4,4 кг",
+                    "Heat exchanger for boiler 4.4KG"],
+                    partImage: "components/images/products/spare_parts/30679.jpg" 
+                },
+                {
+                    partName: ["Расширительный бак",
+                    "Expansion vessel for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png"
+                },
+                {
+                    partName: ["Расширительный бак",
+                    "Expansion vessel for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                },
+                {
+                    partName: ["Вторичный теплообменник с трёхходовым клапаном",
+                    "Plate heat exchanger for boiler / 3-way valve motor for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png"
+                },
+                {
+                    partName: ["Фильтр санитарный",
+                    "Sanitary filter for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png"
+                },
+                {
+                    partName: ["Свечи розжига и ионизации",
+                    "Ignition and ionization electrode for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                },
+                {
+                    partName: ["Трубка входа воды",
+                    "Water inlet pipe for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png"
+                },
+                {
+                    partName: ["Трубка выхода воды",
+                    "Water outlet pipe for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                },
+                {
+                    partName: ["Датчик температуры погружной",
+                    "DHW NTC sensor for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png"
+                },
+                {
+                    partName: ["Датчик температуры накладной",
+                    "CH NTC sensor for boiler"],
+                    partImage: "components/images/products/spare_parts/30289.jpg" 
+                },
+                {
+                    partName: ["Манометр",
+                    "Pressure gauge for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png"
+                },
+                {
+                    partName: ["Дисплей",
+                    "Display for boiler"],
+                    partImage: "components/images/products/spare_parts/nofoto.png" 
                 }
             ]
         }
@@ -94,13 +174,16 @@ Vue.component('product-40', {
             boilerImage: "components/images/products/baltgaz-boiler.png",
             boilerDescription: [
                 {
-                    descriptionText: "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Все образ вопроса даль которой.",
-                    descriptionList: ["Далеко-далеко за словесными горами.",
-                                    "Алфавит лучше не lorem.",
-                                    "Щеке грамматики переулка имеет.",
-                                    "Которое города даль за!",
-                                    "Реторический запятой от всех однажды!",
-                                    "Всемогущая единственное грамматики большого." ] 
+                    descriptionText: "Котел отопительный газовый настенный двухконтурный, с принудительной циркуляцией теплоносителя и закрытой камерой сгорания, мощностью от 34 до 40 кВт.",
+                    descriptionList: ["технология One Piece Flow – «один котел - один мастер»",
+                                    "экологически чистый медный теплообменник",
+                                    "встроенный часовой и недельный программатор",
+                                    "режим «ЕCO» предназначен для экономии расхода газа путем управления работой котла",
+                                    "функция антизамерзания – это встроенная система защиты от замерзания котла",
+                                    "режим «Теплые полы» для оптимального регулирования температуры теплоносителя и исключения его перегрева в системе",
+                                    "возможность работы котла на природном (G20) или сжиженном газе (G30)",
+                                    "компактные размеры 740х510х313 мм",
+                                    "высокий КПД до 92,5%"]  
                 },
                 {
                     descriptionText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate commodi praesentium totam tenetur delectus!",
@@ -147,13 +230,16 @@ Vue.component('product-32', {
             boilerImage: "components/images/products/baltgaz-boiler.png",
             boilerDescription: [
                 {
-                    descriptionText: "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Все образ вопроса даль которой.",
-                    descriptionList: ["Далеко-далеко за словесными горами.",
-                                    "Алфавит лучше не lorem.",
-                                    "Щеке грамматики переулка имеет.",
-                                    "Которое города даль за!",
-                                    "Реторический запятой от всех однажды!",
-                                    "Всемогущая единственное грамматики большого." ] 
+                    descriptionText: "Котел отопительный газовый настенный двухконтурный, с принудительной циркуляцией теплоносителя и закрытой камерой сгорания, мощностью от 26 до 32 кВт.",
+                    descriptionList: ["технология One Piece Flow – «один котел - один мастер»",
+                                    "экологически чистый медный теплообменник",
+                                    "встроенный часовой и недельный программатор",
+                                    "режим «ЕCO» предназначен для экономии расхода газа путем управления работой котла",
+                                    "функция антизамерзания – это встроенная система защиты от замерзания котла",
+                                    "режим «Теплые полы» для оптимального регулирования температуры теплоносителя и исключения его перегрева в системе",
+                                    "возможность работы котла на природном (G20) или сжиженном газе (G30)",
+                                    "компактные размеры 740х410х313 мм",
+                                    "высокий КПД до 92,5%"] 
                 },
                 {
                     descriptionText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate commodi praesentium totam tenetur delectus!",
@@ -200,13 +286,16 @@ Vue.component('product-24', {
             boilerImage: "components/images/products/baltgaz-boiler.png",
             boilerDescription: [
                 {
-                    descriptionText: "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Все образ вопроса даль которой.",
-                    descriptionList: ["Далеко-далеко за словесными горами.",
-                                    "Алфавит лучше не lorem.",
-                                    "Щеке грамматики переулка имеет.",
-                                    "Которое города даль за!",
-                                    "Реторический запятой от всех однажды!",
-                                    "Всемогущая единственное грамматики большого." ] 
+                    descriptionText: "Котел отопительный газовый настенный двухконтурный, с принудительной циркуляцией теплоносителя и закрытой камерой сгорания, мощностью от 10 до 24 кВт.",
+                    descriptionList: ["технология One Piece Flow – «один котел - один мастер»",
+                                    "экологически чистый медный теплообменник",
+                                    "встроенный часовой и недельный программатор",
+                                    "режим «ЕCO» предназначен для экономии расхода газа путем управления работой котла",
+                                    "функция антизамерзания – это встроенная система защиты от замерзания котла",
+                                    "режим «Теплые полы» для оптимального регулирования температуры теплоносителя и исключения его перегрева в системе",
+                                    "возможность работы котла на природном (G20) или сжиженном газе (G30)",
+                                    "компактные размеры 700х410х252 мм",
+                                    "высокий КПД до 92,5%"] 
                 },
                 {
                     descriptionText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate commodi praesentium totam tenetur delectus!",
@@ -411,20 +500,34 @@ var app = new Vue ({
                 langCode: "RU",
                 langText: "Русский",
                 langImage: "components/images/flags/RU.png",
-                langHeader: "Заголовок",
+                langHeader: "Газовое оборудование от производителя",
                 langTabs: ["Водонагреватели", "Котлы", "Запасные части"]
             },
             {
                 langCode: "ENG",
                 langText: "English",
                 langImage: "components/images/flags/ENG.png",
-                langHeader: "Header",
+                langHeader: "Gas equipment from the manufacturer",
                 langTabs: ["Gas water heaters", "Gas boilers", "Spare parts"]
             },
             {
                 langCode: "GE",
                 langText: "ქართული",
-                langImage: "components/images/flags/ENG.png",
+                langImage: "components/images/flags/GE.png",
+                langHeader: "სათაური",
+                langTabs: ["გაზის წყლის გამაცხელებლები", "გაზის ქვაბები", "Სათადარიგო ნაწილების"]
+            },
+            {
+                langCode: "AZ",
+                langText: "Azərbaycan",
+                langImage: "components/images/flags/AZ.png",
+                langHeader: "სათაური",
+                langTabs: ["გაზის წყლის გამაცხელებლები", "გაზის ქვაბები", "Სათადარიგო ნაწილების"]
+            },
+            {
+                langCode: "HY",
+                langText: "հայերեն",
+                langImage: "components/images/flags/HY.png",
                 langHeader: "სათაური",
                 langTabs: ["გაზის წყლის გამაცხელებლები", "გაზის ქვაბები", "Სათადარიგო ნაწილების"]
             }
