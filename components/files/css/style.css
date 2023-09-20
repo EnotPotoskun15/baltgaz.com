@@ -24,28 +24,20 @@
     cursor: default;
 }
 
+.product {
+    margin: 3rem 0;
+}
+
 .product img {
     width: 100%;
 }
 
+.productColor, .product-text {
+    margin-top: 32px !important;
+}
+
 .products {
     margin-top: 1rem;
-}
-
-.product {
-    margin: 1rem;
-}
-
-.productColor {
-    margin: 15px;
-    margin-right: 0px;
-}
-
-.product-text {
-    margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .color {

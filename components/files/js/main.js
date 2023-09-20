@@ -320,7 +320,7 @@ Vue.component('product-4512t', {
         }
     },
     template: `
-    <div class="flex product">
+    <div class="row product">
         <div class="col-md-5">
             <img :src="image" alt="">
         </div>
@@ -410,7 +410,7 @@ Vue.component('product-4510t', {
         }
     },
     template: `
-    <div class="flex product">
+    <div class="row product">
         <div class="col-md-5">
             <img :src="image" alt="">
         </div>
