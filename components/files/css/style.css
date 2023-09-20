@@ -144,9 +144,15 @@
     height: 550px;
     justify-content: space-evenly;
     flex-direction: column;
-    max-width: 1200px;
     margin: auto;
     filter: brightness(0.9);
+}
+
+@media(max-width: 992px) {
+    .container-banner {
+        max-width: 100% !important;
+        padding: 0px !important;
+    }
 }
 
 .main-banner > h1 {
