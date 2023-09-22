@@ -54,7 +54,7 @@ Vue.component('product-parts', {
                 {
                     partName: ["Ручка","Qələm","სახელური","Բռնակ","Knob"],
                     partImage: "components/images/products/spare_parts/nofoto.png",
-                    partCode: 0
+                    partCode: 35495
                 },
                 {
                     partName: ["Датчик температуры","Temperatur sensoru","ტემპერატურის გადამწოდი","Ջերմաստիճանի հաղորդիչ","Temperature sensor"],
