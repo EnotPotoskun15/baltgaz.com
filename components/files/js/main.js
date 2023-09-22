@@ -40,7 +40,7 @@ Vue.component('product-parts', {
                 },
                 {
                     partName: ["Дисплей","Displey","დისპლეი","Դիսփլեյ","Display"],
-                    partImage: "components/images/products/spare_parts/25892.jpg"
+                    partImage: "components/images/products/spare_parts/25892.png"
                 },
                 {
                     partName: ["Ручка","Qələm","სახელური","Բռնակ","Knob"],
@@ -48,7 +48,7 @@ Vue.component('product-parts', {
                 },
                 {
                     partName: ["Датчик температуры","Temperatur sensoru","ტემპერატურის გადამწოდი","Ջերմաստիճանի հաղորդիչ","Temperature sensor"],
-                    partImage: "components/images/products/spare_parts/30666.jpg"
+                    partImage: "components/images/products/spare_parts/30666.png"
                 },
                 {
                     partName: ["Набор прокладок","Ara qatı dəsti","შუასადების ნაკრები","Միջադիրների հավաքածու","Set of seals"],
@@ -60,15 +60,15 @@ Vue.component('product-parts', {
                 },
                 {
                     partName: ["Теплообменник котла 2,3 кг","Qazanın istilik dəyişdiricisi 2,3 kq","ქვაბის თბოგადამცემი 2.3 კგ","Կաթսայի ջերմափոխանակիչ 2,3 կգ","Heat exchanger for boiler 2.3KG"],
-                    partImage: "components/images/products/spare_parts/30679.jpg" 
+                    partImage: "components/images/products/spare_parts/30679.png" 
                 },
                 {
                     partName: ["Теплообменник котла 3,2 кг","Qazanın istilik dəyişdiricisi 3,2 kq","ქვაბის თბოგადამცემი 3.2 კგ","Կաթսայի ջերմափոխանակիչ 3,2 կգ","Heat exchanger for boiler 3.2KG"],
-                    partImage: "components/images/products/spare_parts/30679.jpg"
+                    partImage: "components/images/products/spare_parts/30679.png"
                 },
                 {
                     partName: ["Теплообменник котла 4,4 кг","Qazanın istilik dəyişdiricisi 4,4 kq","ქვაბის თბოგადამცემი 4.4 კგ","Կաթսայի ջերմափոխանակիչ 4,4 կգ","Heat exchanger for boiler 4.4KG"],
-                    partImage: "components/images/products/spare_parts/30679.jpg" 
+                    partImage: "components/images/products/spare_parts/30679.png" 
                 },
                 {
                     partName: ["Расширительный бак","Genişləndirici çən","საფართოებელი ავზი","Ընդարձակման բաք","Expansion tank for boiler"],
@@ -104,7 +104,7 @@ Vue.component('product-parts', {
                 },
                 {
                     partName: ["Датчик температуры накладной","Yükləmə temperaturun sensoru","ტემპერატურის გადამწოდი ზესადები","Ջերմաստիճանի հաղորդիչ՝ վերադիր","CH NTC sensor "],
-                    partImage: "components/images/products/spare_parts/30289.jpg" 
+                    partImage: "components/images/products/spare_parts/30289.png" 
                 },
                 {
                     partName: ["Манометр","Manometr","მანომეტრი","Մանոմետր","Pressure gauge "],
