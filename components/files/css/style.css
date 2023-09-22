@@ -9,14 +9,13 @@
     height: 100%;
     padding: 1rem;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     border: 1px solid;
     border-radius: 3%;
 }
 
 .part img {
     max-width: 300px;
-    margin: auto auto 3rem;
 }
 
 .part h5 {
