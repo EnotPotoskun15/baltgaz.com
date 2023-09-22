@@ -1,7 +1,7 @@
 /* PRODUCTS */
 
 .parts {
-    margin-bottom: 4rem;
+    margin-bottom: calc(var(--bs-gutter-x));
 }
 
 .part {
@@ -16,7 +16,7 @@
 
 .part img {
     max-width: 300px;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
 }
 
 .part h5 {
