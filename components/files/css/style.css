@@ -16,10 +16,10 @@
 
 .part img {
     max-width: 300px;
+    margin: 0 auto;
 }
 
 .part h5 {
-    text-align: center;
     height: auto;
     cursor: default;
 }

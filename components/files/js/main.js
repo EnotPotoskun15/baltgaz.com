@@ -10,7 +10,10 @@ Vue.component('product-parts', {
         <div class="col-sm-6 col-md-4 col-lg-3 parts" v-for="(part, index) in parts">
             <div class="part">
                 <img :src="part.partImage" alt="" style="width:100%;">
-                <h5>{{ part.partName[selectlang] }}</h5>
+                <div>
+                    <h5>{{ part.partName[selectlang] }}</h5>
+                    <p>{{ langVendorCode[selectlang] }} {{ part.partCode }}</p>
+                </div>
             </div>
         </div>
     </div>
@@ -20,101 +23,126 @@ Vue.component('product-parts', {
             parts: [
                 {
                     partName: ["Блок управления","Idarəetmə bloku","მართვის ბლოკი","Կառավարման բլոկ","Control unit"],
-                    partImage: "components/images/products/spare_parts/31294.png" 
+                    partImage: "components/images/products/spare_parts/31294.png",
+                    partCode: 31294 
                 },
                 {
                     partName: ["Теплообменник","İstilik dəyişdiricisi","თბოგადამცემი","Ջերմափոխանակիչ","Heat exchanger"],
-                    partImage: "components/images/products/spare_parts/31283.png"
+                    partImage: "components/images/products/spare_parts/31283.png",
+                    partCode: 31283
                 },
                 {
                     partName: ["Водогазовый узел","Su-qaz qurğusu","წყალ-აირის კვანძი","Ջրագազային հանգույց","Gas water valve"],
-                    partImage: "components/images/products/spare_parts/25886.png" 
+                    partImage: "components/images/products/spare_parts/25886.png",
+                    partCode: 25886 
                 },
                 {
                     partName: ["Вентилятор","Sərinkeş","ვენტილატორი","Օդափոխիչ","Fan"],
-                    partImage: "components/images/products/spare_parts/31291.png"
+                    partImage: "components/images/products/spare_parts/31291.png",
+                    partCode: 31291
                 },
                 {
                     partName: ["Свечи розжига и ионизации","Alovlama və ionizasiya şamları","ანთებისა და იონიზაციის სანთლები","Վառոցքի և իոնացման մոմեր","Ingnition and ionization electrode"],
-                    partImage: "components/images/products/spare_parts/31193.png" 
+                    partImage: "components/images/products/spare_parts/31193.png",
+                    partCode: 31193 
                 },
                 {
                     partName: ["Дисплей","Displey","დისპლეი","Դիսփլեյ","Display"],
-                    partImage: "components/images/products/spare_parts/25892.png"
+                    partImage: "components/images/products/spare_parts/25892.png",
+                    partCode: 25892
                 },
                 {
                     partName: ["Ручка","Qələm","სახელური","Բռնակ","Knob"],
-                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Датчик температуры","Temperatur sensoru","ტემპერატურის გადამწოდი","Ջերմաստիճանի հաղորդիչ","Temperature sensor"],
-                    partImage: "components/images/products/spare_parts/30666.png"
+                    partImage: "components/images/products/spare_parts/30666.png",
+                    partCode: 30666
                 },
                 {
                     partName: ["Набор прокладок","Ara qatı dəsti","შუასადების ნაკრები","Միջադիրների հավաքածու","Set of seals"],
-                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Плата управления котлом","Qazan idarəetmə lövhəsi","ქვაბით მართვის პლატა","Կաթսայի կառավարման տախտակ","Control unit for boiler"],
-                    partImage: "components/images/products/spare_parts/nofoto.png"
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Теплообменник котла 2,3 кг","Qazanın istilik dəyişdiricisi 2,3 kq","ქვაბის თბოგადამცემი 2.3 კგ","Կաթսայի ջերմափոխանակիչ 2,3 կգ","Heat exchanger for boiler 2.3KG"],
-                    partImage: "components/images/products/spare_parts/30679.png" 
+                    partImage: "components/images/products/spare_parts/30679.png",
+                    partCode: 30679 
                 },
                 {
                     partName: ["Теплообменник котла 3,2 кг","Qazanın istilik dəyişdiricisi 3,2 kq","ქვაბის თბოგადამცემი 3.2 კგ","Կաթսայի ջերմափոխանակիչ 3,2 կգ","Heat exchanger for boiler 3.2KG"],
-                    partImage: "components/images/products/spare_parts/30679.png"
+                    partImage: "components/images/products/spare_parts/30679.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Теплообменник котла 4,4 кг","Qazanın istilik dəyişdiricisi 4,4 kq","ქვაბის თბოგადამცემი 4.4 კგ","Կաթսայի ջերմափոխանակիչ 4,4 կգ","Heat exchanger for boiler 4.4KG"],
-                    partImage: "components/images/products/spare_parts/30679.png" 
+                    partImage: "components/images/products/spare_parts/30679.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Расширительный бак","Genişləndirici çən","საფართოებელი ავზი","Ընդարձակման բաք","Expansion tank for boiler"],
-                    partImage: "components/images/products/spare_parts/nofoto.png"
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Расширительный бак","Genişləndirici çən","საფართოებელი ავზი","Ընդարձակման բաք","Expansion tank for boiler"],
-                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Вторичный теплообменник с трёхходовым клапаном","Üç kodlu klapanlı ikincil istilik dəyişdiricisi","მეორეული თბოგადამცემი სამსვლიანი სარქველით","Երկրորդային ջերմափոխանակիչ եռամուտք փականով","Plate heat exchanger for boiler / 3-way valve motor "],
-                    partImage: "components/images/products/spare_parts/nofoto.png"
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Фильтр санитарный","Sanitar filtri","სანიტარული ფილტრი","Սանիտարական ֆիլտր","Sanitary filter "],
-                    partImage: "components/images/products/spare_parts/nofoto.png"
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Свечи розжига и ионизации","Alovlama və ionizasiya şamları","ანთებისა და იონიზაციის სანთლები","Վառոցքի և իոնացման մոմեր","Ignition and ionization electrode "],
-                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Трубка входа воды","Su giriş borusu","წყლის შემავალი მილი","Ջրի մուտքի խողովակ","Water inlet pipe "],
-                    partImage: "components/images/products/spare_parts/nofoto.png"
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Трубка выхода воды","Su çıxış borusu","წყლის გამავალი მილი","Ջրի ելքի խողովակ","Water outlet pipe "],
-                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Датчик температуры погружной","Sualtı temperaturun sensoru","ტემპერატურის გადამწოდი ჩასაძირი","Ջերմաստիճանի հաղորդիչ՝ ընկղմվող","DHW NTC sensor "],
-                    partImage: "components/images/products/spare_parts/30291.png"
+                    partImage: "components/images/products/spare_parts/30291.png",
+                    partCode: 30291
                 },
                 {
                     partName: ["Датчик температуры накладной","Yükləmə temperaturun sensoru","ტემპერატურის გადამწოდი ზესადები","Ջերմաստիճանի հաղորդիչ՝ վերադիր","CH NTC sensor "],
-                    partImage: "components/images/products/spare_parts/30289.png" 
+                    partImage: "components/images/products/spare_parts/30289.png",
+                    partCode: 30289 
                 },
                 {
                     partName: ["Манометр","Manometr","მანომეტრი","Մանոմետր","Pressure gauge "],
-                    partImage: "components/images/products/spare_parts/nofoto.png"
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 },
                 {
                     partName: ["Дисплей","Displey","დისპლეი","Դիսփլեյ","Display "],
-                    partImage: "components/images/products/spare_parts/nofoto.png" 
+                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partCode: 0
                 }
-            ]
+            ],
+            langVendorCode: ["Артикул:", "satıcı kodu:", "გამყიდველი კოდი:", "վաճառողի կոդը՝", "Vendor code:"]
         }
     }
 })
