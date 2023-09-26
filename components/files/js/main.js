@@ -156,12 +156,12 @@ Vue.component('product-40', {
         }
     },
     template: `
-    <div class="flex product">
-                    <div class="col-md-5">
+    <div class="flex product column">
+                    <div class="col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
-                    <div class="col-md-7 product-text">
-                        <h5>{{ boilerName }}</h5>
+                    <div class="col-md-7 col-12 product-text">
+                        <h2>{{ boilerName }}</h2>
                         <div class="productDiscription">
                             <p>{{ boilerDescription[selectlang].descriptionText }}</p>
                             <ul>
@@ -251,12 +251,12 @@ Vue.component('product-32', {
         }
     },
     template: `
-    <div class="flex product">
-                    <div class="col-md-5">
+    <div class="flex product column">
+                    <div class="col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
-                    <div class="col-md-7 product-text">
-                        <h5>{{ boilerName }}</h5>
+                    <div class="col-md-7 col-12 product-text">
+                        <h2>{{ boilerName }}</h2>
                         <div class="productDiscription">
                             <p>{{ boilerDescription[selectlang].descriptionText }}</p>
                             <ul>
@@ -346,12 +346,12 @@ Vue.component('product-24', {
         }
     },
     template: `
-    <div class="flex product">
-                    <div class="col-md-5">
+    <div class="flex product column">
+                    <div class="col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
-                    <div class="col-md-7 product-text">
-                        <h5>{{ boilerName }}</h5>
+                    <div class="col-md-7 col-12 product-text">
+                        <h2>{{ boilerName }}</h2>
                         <div class="productDiscription">
                             <p>{{ boilerDescription[selectlang].descriptionText }}</p>
                             <ul>
@@ -442,18 +442,20 @@ Vue.component('product-4512t', {
     },
     template: `
     <div class="row product">
-        <div class="col-md-5">
+        <div class="col-md-5 col-9">
             <img :src="image" alt="">
         </div>
-        <div class="col-md-2 productColor">
-            <div><h6>{{ waterHeaterDescription[selectlang].descriptionColor }}</h6></div>
-            <div class="color"
-            v-for="(color, index) in waterHeaterVariants"
-            :style="{ background:color.variantColor }"
-            @mouseover="selectedColor(index)"></div>
+        <div class="col-md-2 col-3 productColor">
+            <div><h5>{{ waterHeaterDescription[selectlang].descriptionColor }}</h5></div>
+            <div v-for="(color, index) in waterHeaterVariants">
+                <div class="color"
+                :style="{ background:color.variantColor }"
+                @mouseover="selectedColor(index)"></div>
+                <p>{{ color.variantColorLang[selectlang] }}</p>
+            </div>
         </div>
         <div class="col-md-5 product-text">
-            <h5>{{ waterHeaterName }}</h5>
+            <h2>{{ waterHeaterName }}</h2>
             <div class="productDiscription">
                 <p>{{ waterHeaterDescription[selectlang].descriptionText }}</p>
                 <ul>
@@ -542,14 +544,17 @@ Vue.component('product-4512t', {
             waterHeaterVariants: [
                 {
                     variantColor: "black",
+                    variantColorLang: ["Чёрный", "Qara", "შავი", "Սեվ", "Black"],
                     variantImage: "components/images/products/4510t-black.png"
                 },
                 {
                     variantColor: "gray",
+                    variantColorLang: ["Белый алюминий", "Ağ alüminium", "შთეთრი ალუმინი", "Սպիտակ ալյումին", "White aluminum"],
                     variantImage: "components/images/products/4510t-grey.png"
                 },
                 {
                     variantColor: "white",
+                    variantColorLang: ["Белый", "Ağ", "თეთრი", "Սպիտակ", "White"],
                     variantImage: "components/images/products/4510t-white.png"
                 }
             ],
@@ -578,18 +583,20 @@ Vue.component('product-4510t', {
     },
     template: `
     <div class="row product">
-        <div class="col-md-5">
+        <div class="col-md-5 col-9">
             <img :src="image" alt="">
         </div>
-        <div class="col-md-2 productColor">
-            <div><h6>{{ waterHeaterDescription[selectlang].descriptionColor }}</h6></div>
-            <div class="color"
-            v-for="(color, index) in waterHeaterVariants"
-            :style="{ background:color.variantColor }"
-            @mouseover="selectedColor(index)"></div>
+        <div class="col-md-2 col-3 productColor">
+            <div><h5>{{ waterHeaterDescription[selectlang].descriptionColor }}</h5></div>
+            <div v-for="(color, index) in waterHeaterVariants">
+                <div class="color"
+                :style="{ background:color.variantColor }"
+                @mouseover="selectedColor(index)"></div>
+                <p>{{ color.variantColorLang[selectlang] }}</p>
+            </div>
         </div>
         <div class="col-md-5 product-text">
-            <h5>{{ waterHeaterName }}</h5>
+            <h2>{{ waterHeaterName }}</h2>
             <div class="productDiscription">
                 <p>{{ waterHeaterDescription[selectlang].descriptionText }}</p>
                 <ul>
@@ -678,14 +685,17 @@ Vue.component('product-4510t', {
             waterHeaterVariants: [
                 {
                     variantColor: "black",
+                    variantColorLang: ["Чёрный", "Qara", "შავი", "Սեվ", "Black"],
                     variantImage: "components/images/products/4510t-black.png"
                 },
                 {
                     variantColor: "gray",
+                    variantColorLang: ["Белый алюминий", "Ağ alüminium", "შთეთრი ალუმინი", "Սպիտակ ալյումին", "White aluminum"],
                     variantImage: "components/images/products/4510t-grey.png"
                 },
                 {
                     variantColor: "white",
+                    variantColorLang: ["Белый", "Ağ", "თეთრი", "Սպիտակ", "White"],
                     variantImage: "components/images/products/4510t-white.png"
                 }
             ],
@@ -713,35 +723,35 @@ var app = new Vue ({
                 langCode: "RU",
                 langText: "Русский",
                 langImage: "components/images/flags/RU.png",
-                langHeader: "Газовое оборудование от производителя",
+                langHeader: "Газовое оборудование от производителя BaltGaz",
                 langTabs: ["Водонагреватели", "Котлы", "Запасные части"]
             },
             {
                 langCode: "AZ",
                 langText: "Azərbaycan",
                 langImage: "components/images/flags/AZ.png",
-                langHeader: "İstehsalçıdan qaz avadanlığı",
+                langHeader: "İstehsalçıdan qaz avadanlığı BaltGaz",
                 langTabs: ["Su qızdırıcıları", "Qazanlar", "Ehtiyat hissələri"]
             },
             {
                 langCode: "GE",
                 langText: "ქართული",
                 langImage: "components/images/flags/GE.png",
-                langHeader: "გაზის აღჭურვილობა მწარმოებლისგან",
+                langHeader: "გაზის აღჭურვილობა მწარმოებლისგან BaltGaz",
                 langTabs: ["წყლის გამაცხელებლები", "ქვაბები", "სათადარიგო ნაწილები"]
             },
             {
                 langCode: "HY",
                 langText: "Հայերեն",
                 langImage: "components/images/flags/HY.png",
-                langHeader: "Գազային սարքավորումներ արտադրողից",
+                langHeader: "Գազային սարքավորումներ արտադրողից BaltGaz",
                 langTabs: ["Ջրատաքացուցիչներ", "Կաթսաներ", "Պահեստամասեր"]
             },
             {
                 langCode: "ENG",
                 langText: "English",
                 langImage: "components/images/flags/ENG.png",
-                langHeader: "Gas equipment from the manufacturer",
+                langHeader: "Gas equipment from the manufacturer BaltGaz",
                 langTabs: ["Gas water heaters", "Gas boilers", "Spare parts"]
             }
         ],
