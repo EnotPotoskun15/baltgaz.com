@@ -550,17 +550,17 @@ Vue.component('product-4512t', {
                 {
                     variantColor: "black",
                     variantColorLang: ["Чёрный", "Qara", "შავი", "Սեվ", "Black"],
-                    variantImage: "components/images/products/4510t-black.png"
+                    variantImage: "components/images/products/4510t-black-2709.png"
                 },
                 {
                     variantColor: "gray",
                     variantColorLang: ["Белый алюминий", "Ağ alüminium", "შთეთრი ალუმინი", "Սպիտակ ալյումին", "White aluminum"],
-                    variantImage: "components/images/products/4510t-grey.png"
+                    variantImage: "components/images/products/4510t-grey-2709.png"
                 },
                 {
                     variantColor: "white",
                     variantColorLang: ["Белый", "Ağ", "თეთრი", "Սպիտակ", "White"],
-                    variantImage: "components/images/products/4510t-white.png"
+                    variantImage: "components/images/products/4510t-white-2709.png"
                 }
             ],
             selectedVariant: 0
@@ -691,17 +691,17 @@ Vue.component('product-4510t', {
                 {
                     variantColor: "black",
                     variantColorLang: ["Чёрный", "Qara", "შავი", "Սեվ", "Black"],
-                    variantImage: "components/images/products/4510t-black.png"
+                    variantImage: "components/images/products/4510t-black-2709.png"
                 },
                 {
                     variantColor: "gray",
                     variantColorLang: ["Белый алюминий", "Ağ alüminium", "შთეთრი ალუმინი", "Սպիտակ ալյումին", "White aluminum"],
-                    variantImage: "components/images/products/4510t-grey.png"
+                    variantImage: "components/images/products/4510t-grey-2709.png"
                 },
                 {
                     variantColor: "white",
                     variantColorLang: ["Белый", "Ağ", "თეთრი", "Սպիտակ", "White"],
-                    variantImage: "components/images/products/4510t-white.png"
+                    variantImage: "components/images/products/4510t-white-2709.png"
                 }
             ],
             selectedVariant: 0
