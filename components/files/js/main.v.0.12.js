@@ -157,10 +157,11 @@ Vue.component('product-40', {
     },
     template: `
     <div class="flex product column">
-                    <div class="col-md-5 col-12">
+                    <div class="col-lg-3 col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
-                    <div class="col-md-7 col-12 product-text">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-7 col-md-7 col-12 product-text">
                         <h2>{{ boilerName }}</h2>
                         <div class="productDiscription">
                             <p>{{ boilerDescription[selectlang].descriptionText }}</p>
@@ -252,10 +253,11 @@ Vue.component('product-32', {
     },
     template: `
     <div class="flex product column">
-                    <div class="col-md-5 col-12">
+                    <div class="col-lg-3 col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
-                    <div class="col-md-7 col-12 product-text">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-7 col-md-7 col-12 product-text">
                         <h2>{{ boilerName }}</h2>
                         <div class="productDiscription">
                             <p>{{ boilerDescription[selectlang].descriptionText }}</p>
@@ -347,10 +349,11 @@ Vue.component('product-24', {
     },
     template: `
     <div class="flex product column">
-                    <div class="col-md-5 col-12">
+                    <div class="col-lg-3 col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
-                    <div class="col-md-7 col-12 product-text">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-7 col-md-7 col-12 product-text">
                         <h2>{{ boilerName }}</h2>
                         <div class="productDiscription">
                             <p>{{ boilerDescription[selectlang].descriptionText }}</p>
@@ -447,10 +450,10 @@ Vue.component('product-4512t', {
     },
     template: `
     <div class="row product">
-        <div class="col-md-5 col-9">
+        <div class="col-lg-3 col-md-5 col-9">
             <img :src="image" alt="">
         </div>
-        <div class="col-md-2 col-3 productColor">
+        <div class="col-lg-2 col-md-2 col-3 productColor">
             <div><h5>{{ waterHeaterDescription[selectlang].descriptionColor }}</h5></div>
             <div v-for="(color, index) in waterHeaterVariants">
                 <div class="color"
@@ -459,7 +462,7 @@ Vue.component('product-4512t', {
                 <p>{{ color.variantColorLang[selectlang] }}</p>
             </div>
         </div>
-        <div class="col-md-5 product-text">
+        <div class="col-lg-7 col-md-5 product-text">
             <h2>{{ waterHeaterName }}</h2>
             <div class="productDiscription">
                 <p>{{ waterHeaterDescription[selectlang].descriptionText }}</p>
@@ -469,7 +472,7 @@ Vue.component('product-4512t', {
                 </ul>
             </div>
         </div>
-    </div>
+    </div
     `,
     data() {
         return {
@@ -588,10 +591,10 @@ Vue.component('product-4510t', {
     },
     template: `
     <div class="row product">
-        <div class="col-md-5 col-9">
+        <div class="col-lg-3 col-md-5 col-9">
             <img :src="image" alt="">
         </div>
-        <div class="col-md-2 col-3 productColor">
+        <div class="col-lg-2 col-md-2 col-3 productColor">
             <div><h5>{{ waterHeaterDescription[selectlang].descriptionColor }}</h5></div>
             <div v-for="(color, index) in waterHeaterVariants">
                 <div class="color"
@@ -600,7 +603,7 @@ Vue.component('product-4510t', {
                 <p>{{ color.variantColorLang[selectlang] }}</p>
             </div>
         </div>
-        <div class="col-md-5 product-text">
+        <div class="col-lg-7 col-md-5 product-text">
             <h2>{{ waterHeaterName }}</h2>
             <div class="productDiscription">
                 <p>{{ waterHeaterDescription[selectlang].descriptionText }}</p>

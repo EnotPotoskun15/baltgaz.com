@@ -31,7 +31,8 @@
 .product img {
     width: 100%;    
     filter: drop-shadow(2px 4px 6px black);
-    padding: 2rem 5rem;
+    padding: 2rem 0rem;
+    margin-left: -13px;
 }
 
 .productColor, .product-text {
