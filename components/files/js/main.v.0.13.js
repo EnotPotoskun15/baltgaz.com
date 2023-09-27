@@ -176,7 +176,7 @@ Vue.component('product-40', {
     data() {
         return {
             boilerName: "BaltGaz 40",
-            boilerImage: "components/images/products/baltgaz-boiler.png",
+            boilerImage: "components/images/products/baltgaz-boiler-2709.png",
             boilerDescription: [
                 {
                     descriptionText: "Котел отопительный газовый настенный двухконтурный, с принудительной циркуляцией теплоносителя и закрытой камерой сгорания, мощностью от 34 до 40 кВт.",
@@ -272,7 +272,7 @@ Vue.component('product-32', {
     data() {
         return {
             boilerName: "BaltGaz 32",
-            boilerImage: "components/images/products/baltgaz-boiler.png",
+            boilerImage: "components/images/products/baltgaz-boiler-2709.png",
             boilerDescription: [
                 {
                     descriptionText: "Котел отопительный газовый настенный двухконтурный, с принудительной циркуляцией теплоносителя и закрытой камерой сгорания, мощностью от 26 до 32 кВт.",
@@ -368,7 +368,7 @@ Vue.component('product-24', {
     data() {
         return {
             boilerName: "BaltGaz 24",
-            boilerImage: "components/images/products/baltgaz-boiler.png",
+            boilerImage: "components/images/products/baltgaz-boiler-2709.png",
             boilerDescription: [
                 {
                     descriptionText: "Котел отопительный газовый настенный двухконтурный, с принудительной циркуляцией теплоносителя и закрытой камерой сгорания, мощностью от 10 до 24 кВт.",
@@ -472,7 +472,7 @@ Vue.component('product-4512t', {
                 </ul>
             </div>
         </div>
-    </div
+    </div>
     `,
     data() {
         return {

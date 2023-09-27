@@ -30,17 +30,29 @@
 
 .product img {
     width: 100%;    
-    filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(-4px 2px 4px black);
     padding: 2rem 0rem;
     margin-left: -13px;
 }
 
-.productColor, .product-text {
+.product-text {
+    margin-top: 29px !important;
+}
+
+.productColor {
     margin-top: 32px !important;
+}
+
+.productColor h5 {
+    text-align: center;
 }
 
 .productColor p {
     line-height: 1;
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .products {
@@ -48,11 +60,10 @@
 }
 
 .color {
-    height: 50px;
-    width: 50px;
-    /* margin: 15px;
-    margin-left: 0; */
+    height: 60px;
+    width: 60px;
     border: 1px solid black;
+    margin: 0 auto;
 }
 
 .color:hover {
