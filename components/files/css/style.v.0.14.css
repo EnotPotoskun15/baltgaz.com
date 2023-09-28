@@ -41,6 +41,7 @@
 
 .productColor {
     margin-top: 32px !important;
+    cursor: default;
 }
 
 .productColor h5 {
@@ -124,6 +125,7 @@
 .tab h5 {
     margin: 0.3rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .tabs {
@@ -139,11 +141,11 @@
 }
 
 .activeTab {
-    background-color: #f5f5f5;
+    background-color: var(--background);
     cursor: default;
     position: relative;
     height: calc(100% + 1px);
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid var(--background);
     box-shadow: 0px -8px 8px grey;
 }
 
@@ -219,12 +221,32 @@
     font-weight: 750;
 }
 
-/* LANGS */
+/* HEADER */
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgrey;
+    filter: drop-shadow(0px 1px 15px gray);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.phone {
+    padding-left: .5rem !important;
+}
+
+.phone a, .phone a:hover{
+    display: block;
+    margin: auto 0;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
 
 .langs {
-    background-color: lightgray;
     justify-content: flex-end;
-    filter: drop-shadow(0px 1px 15px gray);
 }
 
 .lang {
@@ -255,12 +277,28 @@
     }
 }
 
+@media(max-width: 460px) {
+    .header {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .langs, .phone {
+        width: 100% !important;
+        justify-content: center;
+    }
+}
+
 /* MAIN */
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5 !important;    
+    background-color: var(--background) !important;    
+}
+
+h1, h2, h3, h4, h5, h6{
+    cursor: default;
 }
 
 html::-webkit-scrollbar {
@@ -269,4 +307,8 @@ html::-webkit-scrollbar {
 
 .flex {
     display: flex;
+}
+
+:root {
+    --background: #f5f5f5;
 }

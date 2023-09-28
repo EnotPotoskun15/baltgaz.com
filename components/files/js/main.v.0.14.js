@@ -480,7 +480,7 @@ Vue.component('product-4512t', {
             waterHeaterDescription: [
                 {
                     descriptionColor: "Цвета:",
-                    descriptionText: "Водонагреватель BALTGAZ 4512Т предназначен для нагрева 24 литра воды в минуту. Отличительной особенностью является лаконичный, классический дизайн облицовки, закрытая камера сгорания, латунный водогазовой узел со встроенным сбросным клапаном. Водонагреватель BALTGAZ 4512T прост и удобен в обслуживании, компактен. Это достигается благодаря совмещенному корпусу с камерой сгорания, который так же обеспечивает удобство проведения монтажа и обслуживания.",
+                    descriptionText: "Водонагреватель BaltGaz 4512Т предназначен для нагрева 24 литра воды в минуту. Отличительной особенностью является лаконичный, классический дизайн облицовки, закрытая камера сгорания, латунный водогазовой узел со встроенным сбросным клапаном. Водонагреватель BaltGaz 4512T прост и удобен в обслуживании, компактен. Это достигается благодаря совмещенному корпусу с камерой сгорания, который так же обеспечивает удобство проведения монтажа и обслуживания.",
                     descriptionList: ["все современные системы безопасности",
                                     "автоматический розжиг",
                                     "автоматическое отключение подачи газа при погасании горелки",
@@ -494,7 +494,7 @@ Vue.component('product-4512t', {
                 },
                 {
                     descriptionColor: "Rənglər:",
-                    descriptionText: "“BALTGAZ 4512T” su qızdırıcısı dəqiqədə 24 litr suyu qızdırmaq üçün nəzərdə tutulub. Onun fərqli xüsusiyyəti – üzləmənin lakonik və klassik dizaynı, qapalı yanma kamerası, quraşdırılmış buraxılış klapanlı bürünc su-qaz qurğusudur. “BALTGAZ 4512T” su qızdırıcısı quruluşca sadə və rahatdır, xidməti cəhətdən yığcamdır. Bu, yanma kamerası ilə birləşdirilmiş korpus sayəsində əldə edilir, hansı ki quraşdırma və texniki xidmətin asanlığını təmin edir.",
+                    descriptionText: "“BaltGaz 4512T” su qızdırıcısı dəqiqədə 24 litr suyu qızdırmaq üçün nəzərdə tutulub. Onun fərqli xüsusiyyəti – üzləmənin lakonik və klassik dizaynı, qapalı yanma kamerası, quraşdırılmış buraxılış klapanlı bürünc su-qaz qurğusudur. “BaltGaz 4512T” su qızdırıcısı quruluşca sadə və rahatdır, xidməti cəhətdən yığcamdır. Bu, yanma kamerası ilə birləşdirilmiş korpus sayəsində əldə edilir, hansı ki quraşdırma və texniki xidmətin asanlığını təmin edir.",
                     descriptionList: ["Bütün müasir təhlükəsizlik sistemləri.",
                                     "Avtomatik alovlanma",
                                     "Alov söndükdə qazın verilməsinin avtomatik olaraq dayandırılması",
@@ -508,7 +508,7 @@ Vue.component('product-4512t', {
                 },
                 {
                     descriptionColor: "ფერები:",
-                    descriptionText: "BALTGAZ 4512T წყლის გამაცხელებელი განკუთვნილია წუთში 24 ლიტრი წყლის გასათბობად. განსაკუთრებულ თავისებურებას წარმოადგენს შემონაკერის ლაკონური კლასიკური დიზაინი, დახურული წვის კამერა, თითბერის წყალ-გაზის კვანძი ჩამონტაჟებული განმტვირთავი სარქველით. BALTGAZ 4512T წყლის გამაცხელებელი მარტივია და მოხერხებულია მომსახურებაში, კომპაქტური. ეს მიიღწევა წვის კამერასთან კომბინირებული კორპუსის წყალობით, რომელიც ასევე უზრუნველყოფს მონტაჟისა და მომსახურების მოხერხებულობას.",
+                    descriptionText: "BaltGaz 4512T წყლის გამაცხელებელი განკუთვნილია წუთში 24 ლიტრი წყლის გასათბობად. განსაკუთრებულ თავისებურებას წარმოადგენს შემონაკერის ლაკონური კლასიკური დიზაინი, დახურული წვის კამერა, თითბერის წყალ-გაზის კვანძი ჩამონტაჟებული განმტვირთავი სარქველით. BaltGaz 4512T წყლის გამაცხელებელი მარტივია და მოხერხებულია მომსახურებაში, კომპაქტური. ეს მიიღწევა წვის კამერასთან კომბინირებული კორპუსის წყალობით, რომელიც ასევე უზრუნველყოფს მონტაჟისა და მომსახურების მოხერხებულობას.",
                     descriptionList: ["ყველა თანამედროვე უსაფრთხოების სისტემები",
                                     "ავტომატური ანთება",
                                     "აირის მიწოდების ავტომატური გაშიშვა სანთურის ჩაქრობისას",
@@ -522,7 +522,7 @@ Vue.component('product-4512t', {
                 },
                 {
                     descriptionColor: "Գույները՝",
-                    descriptionText: "BALTGAZ 4512T ջրատաքացուցիչը նախատեսված է րոպեում 24 լիտր ջուր տաքացնելու համար։ Հատկանշական առանձնահատկություն է հանդիսանում երեսպատման լակոնիկ դասական ձևավորումը, փակ այրման խցիկը, արույրե ջրագազային հանգույցը ներկառուցված օգնության փականով: BALTGAZ 4512T ջրատաքացուցիչը պարզ է, հեշտ սպասարկվող և կոմպակտ՝ ի շնորհիվ պատյանի՝  համակցված այրման խցիկի հետ, որը նաև ապահովում է տեղադրման և սպասարկման հարմարավետությունը:",
+                    descriptionText: "BaltGaz 4512T ջրատաքացուցիչը նախատեսված է րոպեում 24 լիտր ջուր տաքացնելու համար։ Հատկանշական առանձնահատկություն է հանդիսանում երեսպատման լակոնիկ դասական ձևավորումը, փակ այրման խցիկը, արույրե ջրագազային հանգույցը ներկառուցված օգնության փականով: BaltGaz 4512T ջրատաքացուցիչը պարզ է, հեշտ սպասարկվող և կոմպակտ՝ ի շնորհիվ պատյանի՝  համակցված այրման խցիկի հետ, որը նաև ապահովում է տեղադրման և սպասարկման հարմարավետությունը:",
                     descriptionList: ["բոլոր ժամանակակից անվտանգության համակարգերը",
                                     "ավտոմատացված բռնկում",
                                     "գազի մատակարարման ավտոմատացված դադարեցում այրիչի հանգման դեպքում",
@@ -536,7 +536,7 @@ Vue.component('product-4512t', {
                 },
                 {
                     descriptionColor: "Colors:",
-                    descriptionText: "The BALTGAZ 4512T water heater is designed to heat 24 litres of water per minute. Its distinguishing features are the laconic classic design of the cladding, closed combustion chamber, brass water-gas unit with an inbuilt discharge valve. The BALTGAZ 4512T water heater is simple, easy to operate and compact. This is achieved by combining the housing with the combustion chamber, allowing for easy installation and maintenance as well.",
+                    descriptionText: "The BaltGaz 4512T water heater is designed to heat 24 litres of water per minute. Its distinguishing features are the laconic classic design of the cladding, closed combustion chamber, brass water-gas unit with an inbuilt discharge valve. The BaltGaz 4512T water heater is simple, easy to operate and compact. This is achieved by combining the housing with the combustion chamber, allowing for easy installation and maintenance as well.",
                     descriptionList: ["all modern safety systems",
                                     "automatic ignition",
                                     "automatic gas shut-off on burner extinguishment",
@@ -621,7 +621,7 @@ Vue.component('product-4510t', {
             waterHeaterDescription: [
                 {
                     descriptionColor: "Цвета:",
-                    descriptionText: "Водонагреватель BALTGAZ 4510Т предназначен для нагрева 24 литра воды в минуту. Отличительной особенностью является лаконичный, классический дизайн облицовки, закрытая камера сгорания, латунный водогазовой узел со встроенным сбросным клапаном. Водонагреватель BALTGAZ 4510T прост и удобен в обслуживании, компактен. Это достигается благодаря совмещенному корпусу с камерой сгорания, который так же обеспечивает удобство проведения монтажа и обслуживания.",
+                    descriptionText: "Водонагреватель BaltGaz 4510Т предназначен для нагрева 24 литра воды в минуту. Отличительной особенностью является лаконичный, классический дизайн облицовки, закрытая камера сгорания, латунный водогазовой узел со встроенным сбросным клапаном. Водонагреватель BaltGaz 4510T прост и удобен в обслуживании, компактен. Это достигается благодаря совмещенному корпусу с камерой сгорания, который так же обеспечивает удобство проведения монтажа и обслуживания.",
                     descriptionList: ["все современные системы безопасности",
                                     "автоматический розжиг",
                                     "автоматическое отключение подачи газа при погасании горелки",
@@ -635,7 +635,7 @@ Vue.component('product-4510t', {
                 },
                 {
                     descriptionColor: "Rənglər:",
-                    descriptionText: "“BALTGAZ 4510T” su qızdırıcısı dəqiqədə 24 litr suyu qızdırmaq üçün nəzərdə tutulub. Onun fərqli xüsusiyyəti – üzləmənin lakonik və klassik dizaynı, qapalı yanma kamerası, quraşdırılmış buraxılış klapanlı bürünc su-qaz qurğusudur. “BALTGAZ 4510T” su qızdırıcısı quruluşca sadə və rahatdır, xidməti cəhətdən yığcamdır. Bu, yanma kamerası ilə birləşdirilmiş korpus sayəsində əldə edilir, hansı ki quraşdırma və texniki xidmətin asanlığını təmin edir.",
+                    descriptionText: "“BaltGaz 4510T” su qızdırıcısı dəqiqədə 24 litr suyu qızdırmaq üçün nəzərdə tutulub. Onun fərqli xüsusiyyəti – üzləmənin lakonik və klassik dizaynı, qapalı yanma kamerası, quraşdırılmış buraxılış klapanlı bürünc su-qaz qurğusudur. “BaltGaz 4510T” su qızdırıcısı quruluşca sadə və rahatdır, xidməti cəhətdən yığcamdır. Bu, yanma kamerası ilə birləşdirilmiş korpus sayəsində əldə edilir, hansı ki quraşdırma və texniki xidmətin asanlığını təmin edir.",
                     descriptionList: ["Bütün müasir təhlükəsizlik sistemləri.",
                                     "Avtomatik alovlanma",
                                     "Alov söndükdə qazın verilməsinin avtomatik olaraq dayandırılması",
@@ -649,7 +649,7 @@ Vue.component('product-4510t', {
                 },
                 {
                     descriptionColor: "ფერები:",
-                    descriptionText: "BALTGAZ 4510T წყლის გამაცხელებელი განკუთვნილია წუთში 24 ლიტრი წყლის გასათბობად. განსაკუთრებულ თავისებურებას წარმოადგენს შემონაკერის ლაკონური კლასიკური დიზაინი, დახურული წვის კამერა, თითბერის წყალ-გაზის კვანძი ჩამონტაჟებული განმტვირთავი სარქველით. BALTGAZ 4510T წყლის გამაცხელებელი მარტივია და მოხერხებულია მომსახურებაში, კომპაქტური. ეს მიიღწევა წვის კამერასთან კომბინირებული კორპუსის წყალობით, რომელიც ასევე უზრუნველყოფს მონტაჟისა და მომსახურების მოხერხებულობას.",
+                    descriptionText: "BaltGaz 4510T წყლის გამაცხელებელი განკუთვნილია წუთში 24 ლიტრი წყლის გასათბობად. განსაკუთრებულ თავისებურებას წარმოადგენს შემონაკერის ლაკონური კლასიკური დიზაინი, დახურული წვის კამერა, თითბერის წყალ-გაზის კვანძი ჩამონტაჟებული განმტვირთავი სარქველით. BaltGaz 4510T წყლის გამაცხელებელი მარტივია და მოხერხებულია მომსახურებაში, კომპაქტური. ეს მიიღწევა წვის კამერასთან კომბინირებული კორპუსის წყალობით, რომელიც ასევე უზრუნველყოფს მონტაჟისა და მომსახურების მოხერხებულობას.",
                     descriptionList: ["ყველა თანამედროვე უსაფრთხოების სისტემები",
                                     "ავტომატური ანთება",
                                     "აირის მიწოდების ავტომატური გაშიშვა სანთურის ჩაქრობისას",
@@ -663,7 +663,7 @@ Vue.component('product-4510t', {
                 },
                 {
                     descriptionColor: "Գույները՝",
-                    descriptionText: "BALTGAZ 4510T ջրատաքացուցիչը նախատեսված է րոպեում 24 լիտր ջուր տաքացնելու համար։ Հատկանշական առանձնահատկություն է հանդիսանում երեսպատման լակոնիկ դասական ձևավորումը, փակ այրման խցիկը, արույրե ջրագազային հանգույցը ներկառուցված օգնության փականով: BALTGAZ 4510T ջրատաքացուցիչը պարզ է, հեշտ սպասարկվող և կոմպակտ՝ ի շնորհիվ պատյանի՝  համակցված այրման խցիկի հետ, որը նաև ապահովում է տեղադրման և սպասարկման հարմարավետությունը:",
+                    descriptionText: "BaltGaz 4510T ջրատաքացուցիչը նախատեսված է րոպեում 24 լիտր ջուր տաքացնելու համար։ Հատկանշական առանձնահատկություն է հանդիսանում երեսպատման լակոնիկ դասական ձևավորումը, փակ այրման խցիկը, արույրե ջրագազային հանգույցը ներկառուցված օգնության փականով: BaltGaz 4510T ջրատաքացուցիչը պարզ է, հեշտ սպասարկվող և կոմպակտ՝ ի շնորհիվ պատյանի՝  համակցված այրման խցիկի հետ, որը նաև ապահովում է տեղադրման և սպասարկման հարմարավետությունը:",
                     descriptionList: ["բոլոր ժամանակակից անվտանգության համակարգերը",
                                     "ավտոմատացված բռնկում",
                                     "գազի մատակարարման ավտոմատացված դադարեցում այրիչի հանգման դեպքում",
@@ -677,7 +677,7 @@ Vue.component('product-4510t', {
                 },
                 {
                     descriptionColor: "Colors:",
-                    descriptionText: "The BALTGAZ 4510T water heater is designed to heat 24 litres of water per minute. Its distinguishing features are the laconic classic design of the cladding, closed combustion chamber, brass water-gas unit with an inbuilt discharge valve. The BALTGAZ 4510T water heater is simple, easy to operate and compact. This is achieved by combining the housing with the combustion chamber, allowing for easy installation and maintenance as well.",
+                    descriptionText: "The BaltGaz 4510T water heater is designed to heat 24 litres of water per minute. Its distinguishing features are the laconic classic design of the cladding, closed combustion chamber, brass water-gas unit with an inbuilt discharge valve. The BaltGaz 4510T water heater is simple, easy to operate and compact. This is achieved by combining the housing with the combustion chamber, allowing for easy installation and maintenance as well.",
                     descriptionList: ["all modern safety systems",
                                     "automatic ignition",
                                     "automatic gas shut-off on burner extinguishment",
