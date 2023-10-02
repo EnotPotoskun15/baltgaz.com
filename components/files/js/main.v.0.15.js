@@ -471,6 +471,14 @@ Vue.component('product-4512t', {
                     >{{ list }}</li>
                 </ul>
             </div>
+            <table>
+                <tbody>
+                    <tr v-for="(table, index) in waterHeaterTable">
+                        <td>{{ table.heaterTableName[selectlang] }}</td>
+                        <td>{{ table.heaterTableValue[selectlang] }}</td>
+                    </tr> 
+                </tbody>
+            </table>
         </div>
     </div>
     `,
@@ -566,6 +574,41 @@ Vue.component('product-4512t', {
                     variantImage: "components/images/products/4510t-white-2709.png"
                 }
             ],
+            waterHeaterTable: [
+                {
+                    heaterTableName: ["Номинальная тепловая мощность", "Nominal istilik gücü", "რეიტინგული თერმული სიმძლავრე", "Գնահատված ջերմային հզորություն", "Thermal power"],
+                    heaterTableValue: ["20 кВт", "20 kW", "20 kW", "20 kW", "20 kW"]
+                },
+                {
+                    heaterTableName: ["КПД", "Səmərəlilik", "ეფექტურობა", "Արդյունավետություն", "Efficiency"],
+                    heaterTableValue: ["87%", "87%", "87%", "87%", "87%",]
+                },
+                {
+                    heaterTableName: ["Минимальный расход воды", "Minimum su istehlakı", "წყლის მინიმალური მოხმარება", "Ջրի նվազագույն սպառումը", "Minimum water consumption"],
+                    heaterTableValue: ["2.5 л/мин", "2.5 dəqiqədə litr", "2.5 ლიტრი წუთში", "2.5 լիտր րոպեում", "2.5 liters per minute"]
+                },
+                {
+                    heaterTableName: ["Расход воды", "Su istehlakı", "წყლის მოხმარება", "ջրի սպառում", "Water consumption"],
+                    heaterTableValue: ["24 л/мин", "24 dəqiqədə litr", "24 ლიტრი წუთში", "24 լիտր րոպեում", "24 liters per minute"]
+                },
+                {
+                    heaterTableName: ["Вид рохжига", "Alovlanma növü", "ანთების ტიპი", "Բոցավառման տեսակը", "Type of ignition"],
+                    heaterTableValue: ["электронный", "elektron", "ელექტრონული", "էլեկտրոնային", "electronic"]
+                },
+                {
+                    heaterTableName: ["Масса нетто / масса брутто", "Xalis çəki / ümumi çəki", "წმინდა წონა/მთლიანი წონა", "Զուտ քաշ / համախառն քաշ", "Net weight/gross weight"],
+                    heaterTableValue: ["9 / 10 кг", "9 / 10 kg", "9 / 10 kg", "9 / 10 kg", "9 / 10 kg"]
+                },
+                {
+                    heaterTableName: ["Напряжение", "Gərginlik", "Ვოლტაჟი", "Լարման", "Voltage"],
+                    heaterTableValue: ["220V", "220V", "220V", "220V", "220V"]
+                },
+                {
+                    heaterTableName: ["Габариты", "Ölçülər", "ზომები", "Չափերը", "Dimensions"],
+                    heaterTableValue: ["590х340х140 мм", "590х340х140 mm", "590х340х140 მმ", "590х340х140 мм", "590х340х140 mm"]
+                },
+
+            ],
             selectedVariant: 0
         }
     },
@@ -612,6 +655,14 @@ Vue.component('product-4510t', {
                     >{{ list }}</li>
                 </ul>
             </div>
+            <table>
+                <tbody>
+                    <tr v-for="(table, index) in waterHeaterTable">
+                        <td>{{ table.heaterTableName[selectlang] }}</td>
+                        <td>{{ table.heaterTableValue[selectlang] }}</td>
+                    </tr> 
+                </tbody>
+            </table>
         </div>
     </div>
     `,
@@ -706,6 +757,41 @@ Vue.component('product-4510t', {
                     variantColorLang: ["Белый", "Ağ", "თეთრი", "Սպիտակ", "White"],
                     variantImage: "components/images/products/4510t-white-2709.png"
                 }
+            ],
+            waterHeaterTable: [
+                {
+                    heaterTableName: ["Номинальная тепловая мощность", "Nominal istilik gücü", "რეიტინგული თერმული სიმძლავრე", "Գնահատված ջերմային հզորություն", "Thermal power"],
+                    heaterTableValue: ["20 кВт", "20 kW", "20 kW", "20 kW", "20 kW"]
+                },
+                {
+                    heaterTableName: ["КПД", "Səmərəlilik", "ეფექტურობა", "Արդյունավետություն", "Efficiency"],
+                    heaterTableValue: ["87%", "87%", "87%", "87%", "87%",]
+                },
+                {
+                    heaterTableName: ["Минимальный расход воды", "Minimum su istehlakı", "წყლის მინიმალური მოხმარება", "Ջրի նվազագույն սպառումը", "Minimum water consumption"],
+                    heaterTableValue: ["2.5 л/мин", "2.5 dəqiqədə litr", "2.5 ლიტრი წუთში", "2.5 լիտր րոպեում", "2.5 liters per minute"]
+                },
+                {
+                    heaterTableName: ["Расход воды", "Su istehlakı", "წყლის მოხმარება", "ջրի սպառում", "Water consumption"],
+                    heaterTableValue: ["24 л/мин", "24 dəqiqədə litr", "24 ლიტრი წუთში", "24 լիտր րոպեում", "24 liters per minute"]
+                },
+                {
+                    heaterTableName: ["Вид рохжига", "Alovlanma növü", "ანთების ტიპი", "Բոցավառման տեսակը", "Type of ignition"],
+                    heaterTableValue: ["электронный", "elektron", "ელექტრონული", "էլեկտրոնային", "electronic"]
+                },
+                {
+                    heaterTableName: ["Масса нетто / масса брутто", "Xalis çəki / ümumi çəki", "წმინდა წონა/მთლიანი წონა", "Զուտ քաշ / համախառն քաշ", "Net weight/gross weight"],
+                    heaterTableValue: ["9 / 10 кг", "9 / 10 kg", "9 / 10 kg", "9 / 10 kg", "9 / 10 kg"]
+                },
+                {
+                    heaterTableName: ["Напряжение", "Gərginlik", "Ვოლტაჟი", "Լարման", "Voltage"],
+                    heaterTableValue: ["220V", "220V", "220V", "220V", "220V"]
+                },
+                {
+                    heaterTableName: ["Габариты", "Ölçülər", "ზომები", "Չափերը", "Dimensions"],
+                    heaterTableValue: ["590х340х140 мм", "590х340х140 mm", "590х340х140 მმ", "590х340х140 мм", "590х340х140 mm"]
+                },
+
             ],
             selectedVariant: 0
         }
