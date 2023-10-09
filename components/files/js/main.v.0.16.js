@@ -53,7 +53,7 @@ Vue.component('product-parts', {
                 },
                 {
                     partName: ["Ручка","Qələm","სახელური","Բռնակ","Knob"],
-                    partImage: "components/images/products/spare_parts/nofoto.png",
+                    partImage: "components/images/products/spare_parts/35495.png",
                     partCode: 35495
                 },
                 {
