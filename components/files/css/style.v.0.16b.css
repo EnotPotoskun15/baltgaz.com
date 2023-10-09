@@ -403,6 +403,10 @@ table {
     color: black;
 }
 
+.dark .main-banner {
+    box-shadow: inset 0px 0px 30px 20px var(--background-dark);
+}
+
 /* MAIN */
 
 body {
