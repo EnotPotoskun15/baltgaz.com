@@ -345,6 +345,64 @@ table {
     width: 100%;
 }
 
+/* THEMS */
+
+.themes {
+    position: fixed;
+    top: 5%;
+    right: 0;
+    z-index: 10;
+    background: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px 0 0 12px;
+    filter: drop-shadow(2px 4px 6px black);
+    display: flex;
+}
+
+.themes:hover {
+    cursor: pointer;
+}
+
+.themes img {
+    max-width: 25px;
+    height: auto;
+    margin: auto;
+}
+
+/* DARK THEME */
+
+.dark .tab {
+    box-shadow: inset 0px -4px 10px black;
+    border-bottom: 1px solid black;
+}
+
+.dark .header, .dark .tab {
+    background: var(--background-dark2);
+}
+
+.dark, .dark .activeTab {
+    background: var(--background-dark);
+    color: var(--color-dark);
+}
+
+.dark .activeTab {
+    border-bottom: 1px solid var(--background-dark);
+    box-shadow: 0px -8px 8px black;
+}
+
+.dark .header {
+    filter: drop-shadow(0px 1px 15px black);
+}
+
+.dark .phone a {
+    color: var(--color-dark);
+}
+
+.dark table, .dark .main-banner h1 {
+    color: black;
+}
+
 /* MAIN */
 
 body {
@@ -357,6 +415,10 @@ h1, h2, h3, h4, h5, h6{
     cursor: default;
 }
 
+html {
+    height: 100%;
+}
+
 html::-webkit-scrollbar {
     width: 0;
   }
@@ -367,4 +429,7 @@ html::-webkit-scrollbar {
 
 :root {
     --background: #f5f5f5;
+    --background-dark: #212121;
+    --background-dark2: #313131;
+    --color-dark: #b5b5b5;
 }

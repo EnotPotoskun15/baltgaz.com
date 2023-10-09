@@ -609,7 +609,7 @@ Vue.component('product-4512t', {
                 },
 
             ],
-            selectedVariant: 0
+            selectedVariant: 1
         }
     },
     methods: {
@@ -793,7 +793,7 @@ Vue.component('product-4510t', {
                 },
 
             ],
-            selectedVariant: 0
+            selectedVariant: 1
         }
     },
     methods: {
@@ -851,11 +851,19 @@ var app = new Vue ({
         ],
         selectlang: 0,
         selectedTab: 0,
+        selectedTheme: 1
     },
     methods: {
         changeLang(index) {
             return this.selectlang = index;
         },
+        changeTheme() {
+            if (this.selectedTheme === 0) {
+                return this.selectedTheme = 1;
+            }else{
+                return this.selectedTheme = 0;
+            }
+        }
     },
     computed: {
         
