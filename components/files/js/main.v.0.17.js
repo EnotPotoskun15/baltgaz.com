@@ -592,7 +592,7 @@ Vue.component('product-4512t', {
                     heaterTableValue: ["24 л/мин", "24 dəqiqədə litr", "24 ლიტრი წუთში", "24 լիտր րոպեում", "24 liters per minute"]
                 },
                 {
-                    heaterTableName: ["Вид рохжига", "Alovlanma növü", "ანთების ტიპი", "Բոցավառման տեսակը", "Type of ignition"],
+                    heaterTableName: ["Вид розжига", "Alovlanma növü", "ანთების ტიპი", "Բոցավառման տեսակը", "Type of ignition"],
                     heaterTableValue: ["электронный", "elektron", "ელექტრონული", "էլեկտրոնային", "electronic"]
                 },
                 {
@@ -776,7 +776,7 @@ Vue.component('product-4510t', {
                     heaterTableValue: ["24 л/мин", "24 dəqiqədə litr", "24 ლიტრი წუთში", "24 լիտր րոպեում", "24 liters per minute"]
                 },
                 {
-                    heaterTableName: ["Вид рохжига", "Alovlanma növü", "ანთების ტიპი", "Բոցավառման տեսակը", "Type of ignition"],
+                    heaterTableName: ["Вид розжига", "Alovlanma növü", "ანთების ტიპი", "Բոցավառման տեսակը", "Type of ignition"],
                     heaterTableValue: ["электронный", "elektron", "ელექტრონული", "էլեկտրոնային", "electronic"]
                 },
                 {
@@ -858,14 +858,28 @@ var app = new Vue ({
             return this.selectlang = index;
         },
         changeTheme() {
-            if (this.selectedTheme === 0) {
-                return this.selectedTheme = 1;
+            if (this.selectedTheme == 0) {
+                return this.selectedTheme = 1;                
             }else{
                 return this.selectedTheme = 0;
-            }
+            }            
         }
     },
-    computed: {
-        
+    mounted() {
+        if (localStorage.theme) {
+            this.selectedTheme = localStorage.theme;
+        };
+
+        if (localStorage.lang) {
+            this.selectlang = Number(localStorage.lang);
+        }
+    },
+    watch: {
+        selectedTheme(newTheme) {
+            localStorage.theme = newTheme;
+        },
+        selectlang(newLang) {
+            localStorage.lang = newLang;
+        }
     }
 })
