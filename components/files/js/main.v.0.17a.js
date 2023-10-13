@@ -7,7 +7,7 @@ Vue.component('product-parts', {
     },
     template: `
     <div class="row">    
-        <div class="col-sm-6 col-md-4 col-lg-3 parts" v-for="(part, index) in parts">
+        <div class="col-sm-6 col-md-4 col-lg-3 parts" v-for="(part, index) in parts" v-if="part.partCode !== 0">
             <div class="part">
                 <img :src="part.partImage" alt="" style="width:100%;">
                 <div>
