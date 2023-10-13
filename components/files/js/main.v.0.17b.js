@@ -156,7 +156,7 @@ Vue.component('product-40', {
         }
     },
     template: `
-    <div class="flex product column">
+    <div class="row product">
                     <div class="col-lg-3 col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
@@ -252,7 +252,7 @@ Vue.component('product-32', {
         }
     },
     template: `
-    <div class="flex product column">
+    <div class="row product">
                     <div class="col-lg-3 col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
@@ -348,7 +348,7 @@ Vue.component('product-24', {
         }
     },
     template: `
-    <div class="flex product column">
+    <div class="row product">
                     <div class="col-lg-3 col-md-5 col-12">
                         <img :src="boilerImage" alt="">
                     </div>
